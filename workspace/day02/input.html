@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+        <!-- 
+        input의 종류
+        - text
+        - password
+        - checkbox
+        - radio
+        - button
+        - reset
+        - submit
+        - file
+        - iamge
+        - color
+        - url
+        - tel
+        - email
+        - date
+        - number
+        - range
+        - date-local
+     -->
+
+    <form>
+      <!-- 1번 id, password -->
+      <div><span>아이디</span><input type="text" /></div>
+      <div><span>비밀번호</span><input type="password" /></div>
+
+      <div>
+        <legend>학과명</legend>
+        <input type="text" name="List" list="option" />
+
+        <datalist id="option">
+          <option value="컴퓨터공학과"></option>
+          <option value="영어영문과"></option>
+          <option value="경영학과"></option>
+          <option value="디자인과"></option>
+        </datalist>
+        
+      </div>
+      <textarea style="resize:none"> 안녕하세요</textarea>
+
+
+    </form>
+
+    <form>
+        <div><span> 아이디(이메일) </span> <input type="text" ></div>
+        <div><span> 비밀번호 </span><input type="password"></div>
+
+        <ul>
+            [필수] 만 14세 이상입니다.
+        </ul>
+    </form>
+  </body>
+</html>
